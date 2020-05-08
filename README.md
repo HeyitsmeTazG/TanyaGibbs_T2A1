@@ -31,6 +31,12 @@ A popular DBMS used in Web Applications (particularly Rails) is Postgres. It is 
 -	Postgres is highly extensible, meaning developers can add additional features, allowing developers to add functions, data types, and languages and install them to the database server
 -	There are security features within Postgres
 
+**Cons:**
+-	Configuration of Postgres can be confusing
+-	For large operations such as read queries, the speed may not be optimal
+-	There are strict requirements for data developers can store in the database table
+-	Being open source, any developer can contribute to it. This means there is no liability or indemnity protection, and may lack user-friendly interfaces
+-	Postgres has slower performance than other DBMS
 
 ---
 ## Q3: Discuss the implementation of Agile project management methodology
