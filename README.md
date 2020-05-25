@@ -40,7 +40,17 @@ A popular DBMS used in Web Applications (particularly Rails) is Postgres. It is 
 
 ---
 ## Q3: Discuss the implementation of Agile project management methodology
-test
+Agile project management is used in order to complete projects by breaking it up into small sections called iterations. After each iteration is completeed, the project is re-evaluated, and then the next step of the project is determined based on the outcome of each iteration. 
+
+This allows developers to assess any issues that come up throughout the project, and make changes accordingly. This also allows developers to release sections as they are completed, rather than having an entire release be delayed due to disorganisation and potential bugs throughout different areas of the project.
+
+Iterations are also useful, as it allows for fixing of issues quickly and efficiently, without having to re-design an entire project near the end due to mis-planning earlier in the project. 
+
+Agile project management allows for continuous adaptation, and projects built using APM are often more solid than ones built without. 
+
+APM is also extremely useful for time management, and is a great way to track projects throughout the entirety of their development. 
+
+APM can be used in teams, or individually. 
 
 ---
 ## Q4: Provide an overview and description of a standard source control workflow
@@ -75,21 +85,66 @@ test
 ---
 ## Q14: Conduct research into a marketplace website (app) and answer the following parts: 
 **a. List and describe the software used by the app.**
-1. Programming languages: Ruby and Javascript
 
-2. Javascript framework: React to build sleeker interfaces
+Airbnb uses a number of different software in order for the app to funtion. These can be broken down into the following categories:
 
-3. Ruby on Rails framework to speed up development
+<details>
+<summary><strong>Programming Languages</strong></summary>
+<ul>
+<li>Ruby</li>
+<li>Javascript</li>
+</ul>
+</details>
 
-4. Web server: Nginx (HTTP and proxy sercer to speed up content delivery, and helps with security and scalability)
+<details>
+<summary><strong>Frameworks</strong></summary>
+<ul>
+<li>Ruby on Rails</li>
+Speeds up development
+<li>React</li>
+Used to build sleek interfaces
+</ul>
+</details>
 
-5. Cloud storage: Amazon s3 to store data (pictures)
+<details>
+<summary><strong>Web Server</strong></summary>
+<ul>
+<li>Nginx</li>
+HTTP and proxy server to speed up content delivery, and help with security and scalability
+</ul>
+</details>
 
-6. Cloud hosting: Amazon EC2 (distributes incoming traffic so server doesnt go down suring traffic spikes)
+<details>
+<summary><strong>Cloud Storage</strong></summary>
+<ul>
+<li>Amazon s3</li>
+Stores data (pictures)
+</ul>
+</details>
 
-7. cloud database: Amazon RDS
+<details>
+<summary><strong>Cloud Hosting</strong></summary>
+<ul>
+<li>Amazon EC2</li>
+distributes incoming traffic so the server doesnt go down during traffic spikes
+</ul>
+</details>
 
-8. big data tools: Presto, Druid, Airpal. 
+<details>
+<summary><strong>Cloud Database</strong></summary>
+<ul>
+<li>Amazon RDS</li>
+</ul>
+</details>
+
+<details>
+<summary><strong>Other Tools</strong></summary>
+<ul>
+<li>Presto</li>
+<li>Druid</li>
+<li>Airpal</li>
+</ul>
+</details>
 
 
 **b. Describe the hardware used to host the app.**
