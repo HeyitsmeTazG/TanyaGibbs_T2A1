@@ -74,7 +74,7 @@ test
 
 ---
 ## Q14: Conduct research into a marketplace website (app) and answer the following parts: 
-- a. List and describe the software used by the app.
+**a. List and describe the software used by the app.**
 1. Programming languages: Ruby and Javascript
 
 2. Javascript framework: React to build sleeker interfaces
@@ -92,15 +92,16 @@ test
 8. big data tools: Presto, Druid, Airpal. 
 
 
-- b. Describe the hardware used to host the app.
+**b. Describe the hardware used to host the app.**
 1. Web servers, data servers, application servers
 
-- c. Describe the interaction of technologies within the app
-- d. Describe the way data is structured within the app
-- e. Identify entities which must be tracked by the app
-- f. Identify the relationships and associations between the entities you have identified in part (e)
-- g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)
+**c. Describe the interaction of technologies within the app.**
+**d. Describe the way data is structured within the app.**
+**e. Identify entities which must be tracked by the app.**
+**f. Identify the relationships and associations between the entities you have identified in part (e)**
 
-![Airbnb ERD](/pics/airbnbERD.png)
+**g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)**
+
+![Airbnb ERD](./pics/airbnbERD.png)
 
 ---
