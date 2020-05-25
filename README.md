@@ -66,6 +66,12 @@ Using branches is also essential, as there could be conflicts with a feature bra
 ---
 ## Q5: Provide an overview and description of a standard software testing process (e.g. manual testing)
 
+Standard software testing is used to ensure that the code meets the requirements for the project. It is used effectively when used to identify errors or missing parts of the code. 
+
+Testing might seem arbitrary to new developers, though even if code works locally, testing is used to reduce risk by finding and eliminating errors that may impact a client that uses the software that is being developed.
+
+The process involves identifying the areas of code that are high risk for errors, and then developing a set of tests which ensure that the code runs the way it is supposed to. If the code doesnt run according to it's requirements, the test should alert the developer to the error so that it is able to be fixed.
+
 ---
 ## Q6: Discuss and analyse requirements related to information system security and how they relate to the project
 
