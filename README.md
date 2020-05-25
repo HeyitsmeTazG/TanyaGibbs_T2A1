@@ -61,6 +61,8 @@ Used individually it is a great way to commit versions of your project to a remo
 
 Branches, when used correctly, allow multiple developers to be working on different sections of the code, which can then be submitted via a pull request, and the project manager is then able to review the branches and merge them with the master branch if the code meets the correct requirements. 
 
+Using branches is also essential, as there could be conflicts with a feature branch and the master branch due to multiple developers working on the same iteration of code, in which case, the conflicts will need to be reviewed and resolved before merging. This ensures the code is streamlined, and the master branch is error-free.
+
 ---
 ## Q5: Provide an overview and description of a standard software testing process (e.g. manual testing)
 
