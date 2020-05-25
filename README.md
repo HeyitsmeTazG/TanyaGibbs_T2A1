@@ -102,6 +102,6 @@ test
 
 **g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)**
 
-![Airbnb ERD](pics/airbnbERD.png)
+![Airbnb ERD](/Pics/airbnbERD.png)
 
 ---
