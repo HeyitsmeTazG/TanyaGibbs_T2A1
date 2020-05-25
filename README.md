@@ -55,6 +55,12 @@ APM can be used in teams, or individually.
 ---
 ## Q4: Provide an overview and description of a standard source control workflow
 
+Source control is a helpful way to keep track of different stages of a project. Another tool that can be utilised either individually or for teams. 
+
+Used individually it is a great way to commit versions of your project to a remote repository. This is particularly useful if your code breaks and is too complicated to fix, you are able to revert back to a previous working version of your code, and try again. Branches help make this more achievable, and is necessary for collaboration.
+
+Branches, when used correctly, allow multiple developers to be working on different sections of the code, which can then be submitted via a pull request, and the project manager is then able to review the branches and merge them with the master branch if the code meets the correct requirements. 
+
 ---
 ## Q5: Provide an overview and description of a standard software testing process (e.g. manual testing)
 
