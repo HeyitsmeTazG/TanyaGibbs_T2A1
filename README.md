@@ -102,13 +102,18 @@ There are certain legal obligations when handling user information. Companies bu
 ---
 ## Q9: Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure.
 
-- A relational database model is a collection of data tables
-- each table has an id, and has multple rows with values that are related to each other
-- most relational databases use SQL
-- each table in the database model relates to anoter, and the collection of these tables forms the database schema
-- an example of this could be an online dog-walking marketplace. There is a table for Dog owners (who need their dogs to be walked), and Dog walkers (who are available to walk dogs). There is also a table for job listings (created by the Dog owner, that a walker can interact with and apply for). In this case, the Dog owner can have many job listings, and can have many walkers *through* the job listings. Likewise, a walker can have many jobs, and many dog owners *through* jobs. This is a has_many through relational database. In this case, a single job listing belongs to the Dog owner, and upon application for the job, the job also belongs to the dog walker.
+The relational database model houses a collection of data tables, each with a unique ID. Each table has multiple rows that store values, which can be related to other tables. These tables can be linked to each other through relationships, and the collection of these related tables form the schema. 
 
-Other relationships include, one to many, many to many, one to one, or has many through.
+An example of this is an online dog-walking marketplace. In this example, there is a table which stores information relevant to a Dog Owner who needs their dog to be walked, and another table for Dog Walkers. As they don't have the same user requirements or authorisation, the data is stored in two separate tables. These two entities can then be connected through Jobs. A new table would need to be created for Jobs, which stores relevant information to the job listing. A job can be created by a Dog Owner, therefore it **belongs to** an Owner. Walkers are able to apply for the Jobs, and if their application is approved by the Owner, the Job *also* **belongs to** the Walker. The Owner and Walker are connected *through* the Job, meaning they have a **has many through** relationship.
+
+Other entity relationships include:
+
+- One to many:
+This means that a One entity can have multiple of another entity. For example, an Owner is one entity, but can have many Jobs.
+- Many to many:
+This is when Many entities can have multiple other entities. For example, an online retail store. Many users can buy many items, meaning the relationship is many to many.
+- One to One:
+This is where One entity has only One relationship to another. For example, if a website allows a user to create a profile, One user can have One profile, and not multiple.
 
 ---
 ## Q10: Describe the integrity aspects of the relational database model. Your description should include information about the types of data integrity and how they can be enforced in a relational database.
