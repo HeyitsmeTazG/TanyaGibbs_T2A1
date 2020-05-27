@@ -46,13 +46,9 @@ This allows developers to assess any issues that come up throughout the project,
 
 Iterations are also useful, as it allows for fixing of issues quickly and efficiently, without having to re-design an entire project near the end due to mis-planning earlier in the project. 
 
-Agile project management allows for continuous adaptation, and projects built using APM are often more solid than ones built without. 
+Agile project management allows for continuous adaptation, and is also extremely useful for time management, and is a great way to track projects throughout the entirety of their development. Projects built using APM are often more solid than ones built without. 
 
-APM is also extremely useful for time management, and is a great way to track projects throughout the entirety of their development. 
-
-APM can be used in teams, or individually. 
-
-# ADD MORE HERE
+APM can be used in teams, or individually as the concepts remain the same. By using APM, work is completed in a more reliable and efficient manner, and there's less risk of code not working toward the end of the development process.
 
 ---
 ## Q4: Provide an overview and description of a standard source control workflow
@@ -81,9 +77,14 @@ Information System Security is primarily used to prevent unauthorized access to 
 
 Risk assessment is a vital part of ISS, as it is necessary to determine which information is the most sensitive in order to allocate more extensive security measures to it. 
 
+Common methods for protecting information and data in a Rails project are tools such as the Devise and Rolify gems. This ensures that a user of a project has correct authorisation and authentication, so they are only able to access data applicable to them. Devise in particular also uses encryption for secure information, such as passwords, so that even developers are unable to see a users password. 
+
+It is recommended to use a third-party payment system if dealing with transactions on a rails project. A system such as Stripe or Paypal have their own policies and programs that ensure data is kept safe, and they adhere to legal requirements, meaning it isn't necessary to build a new payment system specific to just one project. 
+
 ---
 ## Q7: Discuss common methods of protecting information and data and how you would apply them to the project
 
+Common methods for protecting information inclu
 - employ best security control using devise and rolify, and omniauth if necessary
 - devise sets up user id, which is cached and for every http request, the user is is referenced for the session id in the cookie.
 - encryption
