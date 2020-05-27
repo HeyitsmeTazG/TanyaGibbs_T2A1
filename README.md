@@ -114,8 +114,26 @@ Risk assessment is a vital part of ISS, as it is necessary to determine which in
 - each table in the database model relates to anoter, and the collection of these tables forms the database schema
 - an example of this could be an online dog-walking marketplace. There is a table for Dog owners (who need their dogs to be walked), and Dog walkers (who are available to walk dogs). There is also a table for job listings (created by the Dog owner, that a walker can interact with and apply for). In this case, the Dog owner can have many job listings, and can have many walkers *through* the job listings. Likewise, a walker can have many jobs, and many dog owners *through* jobs. This is a has_many through relational database. In this case, a single job listing belongs to the Dog owner, and upon application for the job, the job also belongs to the dog walker.
 
+Other relationships include, one to many, many to many, one to one, or has many through.
+
 ---
 ## Q10: Describe the integrity aspects of the relational database model. Your description should include information about the types of data integrity and how they can be enforced in a relational database.
+
+<details>
+<summary><strong>Domain Integrity</strong></summary>
+All columns that are in a relational database must be in a defined domain. 
+</details>
+
+<details>
+<summary><strong>Entity Integrity</strong></summary>
+Primary keys. Each table must have its own unique primary key, and cannot be null. This means that a row own a table must be identified within this table, such as for a shop user, they must specify an email address. A row such as PO Box wouldnt be used, as some customers may not have a PO Box address.
+</details>
+
+<details>
+<summary><strong>Referential Integrity</strong></summary>
+Foreign keys can hold values in two states, the first being that it would refer to the primary key of another table, or it would be null. The reference to the primary key is to establish the relationship within the database model, and if it is null, it means there either is no relationship, or that it is unknown.
+</details>
+
 
 ---
 ## Q11: Describe the manipulative aspects of the relational database model. Your description should include information about the ways in which data is manipulated (added, removed, changed, and retrieved) in a relational database.
