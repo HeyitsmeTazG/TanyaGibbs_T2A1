@@ -77,14 +77,42 @@ The process involves identifying the areas of code that are high risk for errors
 ---
 ## Q6: Discuss and analyse requirements related to information system security and how they relate to the project
 
+Information System Security is primarily used to prevent unauthorized access to a system. It keeps important information confidential; this includes data, computer information and communication (such as phone calls and emails). 
+
+Risk assessment is a vital part of ISS, as it is necessary to determine which information is the most sensitive in order to allocate more extensive security measures to it. 
+
 ---
 ## Q7: Discuss common methods of protecting information and data and how you would apply them to the project
 
+- employ best security control using devise and rolify, and omniauth if necessary
+- devise sets up user id, which is cached and for every http request, the user is is referenced for the session id in the cookie.
+- encryption
+- authorisation
+- backing up data
+
 ---
 ## Q8: Research what your legal obligations are in relation to handling user data and how they can be met for the project
+- legal requirement to destroy or re-identify a customers personal information when it is no longer needed 
+- personal info includes name, address, email, ph #, DOB, bank account details, photos or information about their opinions.
+- implementation of adequate practices and procedures to secure a customers information (authentication and authorisation)
+- only collecting necessary personal information 
+- not using personal info for direct marketing purposes
+- reporting of notifiable breaches
+- web pages collect information such as internet domain, IP addresses, where the site was accessed from, type of browser and operating system and the pages visited
+- To comply with law, there must be a privacy policy, and users should get notice that their data is being collected
+- this data can only be used for its intended purpose
+- user data shouldnt be shared without the consent of the user
+- passwords and other sensitive information should be kept secure (such as bank and credit card details for online payments)
+- users need access to change or rectify inaccurate data
 
 ---
 ## Q9: Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure.
+
+- A relational database model is a collection of data tables
+- each table has an id, and has multple rows with values that are related to each other
+- most relational databases use SQL
+- each table in the database model relates to anoter, and the collection of these tables forms the database schema
+- an example of this could be an online dog-walking marketplace. There is a table for Dog owners (who need their dogs to be walked), and Dog walkers (who are available to walk dogs). There is also a table for job listings (created by the Dog owner, that a walker can interact with and apply for). In this case, the Dog owner can have many job listings, and can have many walkers *through* the job listings. Likewise, a walker can have many jobs, and many dog owners *through* jobs. This is a has_many through relational database. In this case, a single job listing belongs to the Dog owner, and upon application for the job, the job also belongs to the dog walker.
 
 ---
 ## Q10: Describe the integrity aspects of the relational database model. Your description should include information about the types of data integrity and how they can be enforced in a relational database.
