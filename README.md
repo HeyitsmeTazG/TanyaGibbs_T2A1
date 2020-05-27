@@ -95,17 +95,9 @@ There are certain legal obligations when handling user information. Companies bu
 
 - It is important to only collect the necessary information from a user that is applicable to the application being built. For example, if there is no need for payments to be made through the project, it would be unnecessary and irresponsible to request a users payment details. 
 
-- Protecting the users information from direct marketing purposes is necessary when possible. A users information shouldn't be shared without the users knowledge or consent, as this would compromise the integrity of the project.
+- Protecting the users information from direct marketing purposes is necessary when possible. A users information shouldn't be shared without the users knowledge or consent, as this would compromise the integrity of the project. This essentially means that a users data should only be used for its intended purposes, and not distributed illegally.
 
-- 
-
-
-- web pages collect information such as internet domain, IP addresses, where the site was accessed from, type of browser and operating system and the pages visited
-- To comply with law, there must be a privacy policy, and users should get notice that their data is being collected
-- this data can only be used for its intended purpose
-- user data shouldnt be shared without the consent of the user
-- passwords and other sensitive information should be kept secure (such as bank and credit card details for online payments)
-- users need access to change or rectify inaccurate data
+- As webpages collect information such as domains, IP addresses and visisted pages, it is essential that a Privacy Policy is included in the project, and that users are notified when they are signing up with any further information. 
 
 ---
 ## Q9: Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure.
