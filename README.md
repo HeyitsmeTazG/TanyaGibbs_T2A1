@@ -77,28 +77,29 @@ Information System Security is primarily used to prevent unauthorized access to 
 
 Risk assessment is a vital part of ISS, as it is necessary to determine which information is the most sensitive in order to allocate more extensive security measures to it. 
 
+### Q7: Discuss common methods of protecting information and data and how you would apply them to the project**
+
 Common methods for protecting information and data in a Rails project are tools such as the Devise and Rolify gems. This ensures that a user of a project has correct authorisation and authentication, so they are only able to access data applicable to them. Devise in particular also uses encryption for secure information, such as passwords, so that even developers are unable to see a users password. 
 
 It is recommended to use a third-party payment system if dealing with transactions on a rails project. A system such as Stripe or Paypal have their own policies and programs that ensure data is kept safe, and they adhere to legal requirements, meaning it isn't necessary to build a new payment system specific to just one project. 
 
----
-## Q7: Discuss common methods of protecting information and data and how you would apply them to the project
-
-Common methods for protecting information inclu
-- employ best security control using devise and rolify, and omniauth if necessary
-- devise sets up user id, which is cached and for every http request, the user is is referenced for the session id in the cookie.
-- encryption
-- authorisation
-- backing up data
+Encryption is important for protective sensitive information such as bank or credit card details, as customers are trusting that their money is safe from theft or fraud. This is why using one of the third-party payment systems is incredibly useful, as encryption is already built into their software.
 
 ---
 ## Q8: Research what your legal obligations are in relation to handling user data and how they can be met for the project
-- legal requirement to destroy or re-identify a customers personal information when it is no longer needed 
-- personal info includes name, address, email, ph #, DOB, bank account details, photos or information about their opinions.
-- implementation of adequate practices and procedures to secure a customers information (authentication and authorisation)
-- only collecting necessary personal information 
-- not using personal info for direct marketing purposes
-- reporting of notifiable breaches
+There are certain legal obligations when handling user information. Companies building technologies that require user data need to ensure they adhere to the following:
+
+- Users personal information should be destroyed or re-identified when it is no longer needed. This includes data such as names, email addresses, residential address, date of birth, bank account and/or credit card details, photos etc.
+
+- Adequate procedures are necessary to secure a users information. In Rails, this can be met through using the Devise and Rolify Gems for authentication and authorisation, or using a thir-party payment system when handling payments online.
+
+- It is important to only collect the necessary information from a user that is applicable to the application being built. For example, if there is no need for payments to be made through the project, it would be unnecessary and irresponsible to request a users payment details. 
+
+- Protecting the users information from direct marketing purposes is necessary when possible. A users information shouldn't be shared without the users knowledge or consent, as this would compromise the integrity of the project.
+
+- 
+
+
 - web pages collect information such as internet domain, IP addresses, where the site was accessed from, type of browser and operating system and the pages visited
 - To comply with law, there must be a privacy policy, and users should get notice that their data is being collected
 - this data can only be used for its intended purpose
