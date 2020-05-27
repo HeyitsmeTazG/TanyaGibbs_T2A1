@@ -137,6 +137,14 @@ Foreign keys can hold values in two states, the first being that it would refer 
 
 ---
 ## Q11: Describe the manipulative aspects of the relational database model. Your description should include information about the ways in which data is manipulated (added, removed, changed, and retrieved) in a relational database.
+- DBMS (database management system) software designed to define, manipulate, retrieve and manage data in a database (CRUD)
+- used to manipulate the data itself such as format, field names, record structure and file structure. 
+- defines rules to validate and manipulate the data.
+- reorganising data
+- queries to find certain data and update, such as employee positions
+- in a relational database, data is organised into different tables that follow a certain logic through the relationships each table has with each other. Data from one table can reference data from a different table (such as user_ids etc).
+- this is referred to as referential integrity
+- operations such as select and join can be performed on tables to manipulate the data.
 
 ---
 ## Q12: Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O)
