@@ -10,8 +10,6 @@ The **Controller** is what processes and responds to the user's interaction, suc
 
 If we need to interact with the database, the Controller will interact with the Model, which will then connect to the database. The Model will then return the results back to the Controller. The Controller and the Model can go back and forth as many times as is necessary, however, when the Controller has decided that it has sufficient knowledge of the data, it will send the results to the View, which is the presentation layer of the framework.
 
-# INSERT IMAGE HERE
-
 ---
 ### Q2: Identify a database management system (DBMS) commonly used in web applications (including Rails) and discuss the pros and cons of this database
 
@@ -148,6 +146,22 @@ Relational databases (as previously stated) are organised by tables that follow 
 
 ---
 ### Q12: Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O)
+
+<details>
+<summary>
+<strong>Bubble Sort</strong>
+
+Bubble sort is a simple sorting algorithm that compares elements that are next to each other in an array, and will swap them if they are in the wrong order. 
+
+The algorithm filters through the entire array until the list is sorted correctly. 
+</summary>
+</details>
+
+<details>
+<summary>
+<strong>Quick Sort</strong>
+</summary>
+</details>
 
 ---
 ### Q13: Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O)
