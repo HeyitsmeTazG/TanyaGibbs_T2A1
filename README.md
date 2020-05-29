@@ -151,9 +151,30 @@ Relational databases (as previously stated) are organised by tables that follow 
 <summary>
 <strong>Bubble Sort</strong>
 
-Bubble sort is a simple sorting algorithm that compares elements that are next to each other in an array, and will swap them if they are in the wrong order. 
+Bubble sort is a simple sorting algorithm that compares elements that are next to each other in an array, and will swap them if they are in the wrong order. The algorithm filters through the entire array until the list is sorted correctly. 
 
-The algorithm filters through the entire array until the list is sorted correctly. 
+This algorithm is used as a tool to teach new developers how to user sorting algorithms, but is seldom used in real-world development, as it's worst-case performance is O(*n*2), meaning it isn't optimal to sort large data sets.
+</summary>
+</details>
+
+<details>
+<summary>
+<strong>Merge Sort</strong>
+
+Merge sort takes already sorted lists and merges them into a new sorted list. This follows on from bubble sort, where the algorithm compares the first elements of each list and swaps them if necessary. For example, the first elements of list 1 and 2 are compared and swapped if necessary, and then the remaining lists are compared in the same way.This algorithm repeats until all of the lists are sorted and merged into one final list. 
+
+This is a sorting algorithm that caters well to large lists. The worst-case running time is O(*n* log *n*).
+
+This can also be used for lists and not just arrays, because it doesnt rely on random access. It alsoo has additional O(*n*) space complexity.
+</summary>
+</details>
+
+---
+### Q13: Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O)
+
+<details>
+<summary>
+<strong>Quick Sort</strong>
 </summary>
 </details>
 
@@ -162,9 +183,6 @@ The algorithm filters through the entire array until the list is sorted correctl
 <strong>Quick Sort</strong>
 </summary>
 </details>
-
----
-### Q13: Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O)
 
 ---
 ### Q14: Conduct research into a marketplace website (app) and answer the following parts: 
@@ -315,6 +333,8 @@ https://usersnap.com/blog/software-testing-basics/
 https://searchcio.techtarget.com/definition/Agile-project-management
 
 https://www.forbes.com/sites/quora/2018/02/20/what-technology-stack-does-airbnb-use/#6c6a5cd84025
+
+https://en.wikipedia.org/wiki/Bubble_sort
 
 
 
