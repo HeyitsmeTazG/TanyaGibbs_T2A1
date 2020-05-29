@@ -163,6 +163,8 @@ Airbnb uses a number of different software in order for the app to funtion. Thes
 <ul>
 <li>Ruby</li>
 <li>Javascript</li>
+<li>React</li>
+<li>
 </ul>
 </details>
 
