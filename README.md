@@ -265,3 +265,43 @@ Both properties and reviews are able to have zero or many pictures, through whic
 ![Airbnb ERD](/Pics/airbnbERD.png)
 
 ---
+
+#### References
+
+https://dondi.lmu.build/share/db/relational1.pdf
+
+https://opentextbc.ca/dbdesign01/chapter/chapter-9-integrity-rules-and-constraints/
+
+https://www.techopedia.com/definition/811/data-integrity-databases
+
+https://en.wikipedia.org/wiki/Relational_database#Primary_key
+
+https://en.wikipedia.org/wiki/Data_manipulation_language
+
+https://www.techopedia.com/definition/24361/database-management-systems-dbms
+
+https://stackshare.io/airbnb/airbnb
+
+https://www.nginx.com/resources/glossary/nginx/
+
+https://www.business.gov.au/Risk-management/Cyber-security/How-to-protect-your-customers-information
+
+https://www.termsfeed.com/blog/legal-requirements-collect-personal-data/
+
+https://guides.rubyonrails.org/security.html
+
+https://www.sciencedirect.com/topics/computer-science/information-system-security
+
+https://bus206.pressbooks.com/chapter/chapter-6-information-systems-security/
+
+https://www.techopedia.com/definition/24840/information-systems-security-infosec
+
+https://usersnap.com/blog/software-testing-basics/
+
+https://searchcio.techtarget.com/definition/Agile-project-management
+
+https://www.forbes.com/sites/quora/2018/02/20/what-technology-stack-does-airbnb-use/#6c6a5cd84025
+
+
+
+
