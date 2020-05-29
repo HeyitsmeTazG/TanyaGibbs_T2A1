@@ -174,13 +174,20 @@ This can also be used for lists and not just arrays, because it doesnt rely on r
 
 <details>
 <summary>
-<strong>Quick Sort</strong>
+<strong>Binary Search</strong>
 </summary>
 </details>
 
 <details>
 <summary>
-<strong>Quick Sort</strong>
+<strong>Fibonacci Search</strong>
+
+Fibonacci search is an algoritm which searches through a storted array in unequal parts. It has a Divide and conquer algorithm and Log n time complexity. 
+
+The Fibonacci search starts with finding the smallest Fibonnacci number that is greater than or equal to the length of a given array. The Fibonacci number is fibM[m'th Fibonacci number] and the following Fibonacci numbers are fibMm1[(m-1)'th Fibonacci number], and fibMm2[(m-2)'th Fibonacci number].
+
+If the search element is x, and the array still has elements that need to be inspected, x us cinoared wuth the last element of the range covered by fibMm2. If this matches, the index is returned, however, if x is less than the element, the three Fibonacci variables are moved two Fibonacci down, which eliminates roughly 2/3 of the remaining array. If x is greater than the element however, the 3 Fibonacci variables are moved one Fibonacci down, and the offset is reset to index. This eliminates 1/3 of the remaining array. Once this is completed, if there is a remaining element for comparison, fibMm1 is checked if it is 1. If it is, x is compared with the remaining element, and provided they match, the index is returned.
+
 </summary>
 </details>
 
@@ -334,7 +341,7 @@ https://searchcio.techtarget.com/definition/Agile-project-management
 
 https://www.forbes.com/sites/quora/2018/02/20/what-technology-stack-does-airbnb-use/#6c6a5cd84025
 
-https://en.wikipedia.org/wiki/Bubble_sort
+https://en.wikipedia.org/wiki/Sorting_algorithm#Selection_sort
 
 
 
