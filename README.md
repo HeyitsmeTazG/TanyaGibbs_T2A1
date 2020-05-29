@@ -2,7 +2,7 @@
 
 Ruby on Rails uses MVC architecture. It is a fundamental part of the framework, and so it's important to understand the structure of a rails app in order to carry out the functions correctly. The MVC stand for Model View Controller, which are the key components for developing with rails. 
 
-The **Model** handles the data objects used. This is executed through object oriented programming, and although anything can be an object in our models, the most common type of object used is data.
+The **Model** handles the data objects used. This is executed through object-oriented programming, and although anything can be an object in our models, the most common type of object used is data.
 
 The **View** is what is presented to a user, and what they interact with. The view is what developers will put the HTML, CSS and JavaScript code in, which are then deployed, and the user is able to access the features of the project. 
 
@@ -17,30 +17,30 @@ A popular DBMS used in Web Applications (particularly Rails) is Postgres. It is 
 
 **Pros:**
 
--	Open source meaning anyone can contribute to the development of Postgres
--	It supports JSON
--	Postgres is scalable and can handle terabytes of data, as well as allowing developers to handle data on a micro level, as well as building as the application grows
--	Postgres allows setting of local parameters, so developers can apply changes to the database on a small level without affecting the entire database
--	Postgres gives the option to control actions of the database, such as auto-creating, joining and dropping tables as the application is being developed
--	There are many predefined functions
--	There are multiple interfaces available
--	Transactions allow error handling to be smooth and efficient, and will commit any transaction immediately, which is useful for complex relational applications
--	Postgres allows you to use comments unlike other database applications
--	Postgres is highly extensible, meaning developers can add additional features, allowing developers to add functions, data types, and languages and install them to the database server
--	There are security features within Postgres
+-   Open source meaning anyone can contribute to the development of Postgres
+-   It supports JSON
+-   Postgres is scalable and can handle terabytes of data, as well as allowing developers to handle data on a micro level, as well as building as the application grows
+-   Postgres allows setting of local parameters, so developers can apply changes to the database on a small level without affecting the entire database
+-   Postgres gives the option to control actions of the database, such as auto-creating, joining and dropping tables as the application is being developed
+-   There are many predefined functions
+-   There are multiple interfaces available
+-   Transactions allow error handling to be smooth and efficient, and will commit any transaction immediately, which is useful for complex relational applications
+-   Postgres allows you to use comments unlike other database applications
+-   Postgres is highly extensible, meaning developers can add additional features, allowing developers to add functions, data types, and languages and install them to the database server
+-   There are security features within Postgres
 
 **Cons:**
--	Configuration of Postgres can be confusing
--	For large operations such as read queries, the speed may not be optimal
--	There are strict requirements for data developers can store in the database table
--	Being open source, any developer can contribute to it. This means there is no liability or indemnity protection, and may lack user-friendly interfaces
--	Postgres has slower performance than other DBMS
+-   Configuration of Postgres can be confusing
+-   For large operations such as read queries, the speed may not be optimal
+-   There are strict requirements for data developers can store in the database table
+-   Being open source, any developer can contribute to it. This means there is no liability or indemnity protection, and may lack user-friendly interfaces
+-   Postgres has slower performance than other DBMS
 
 ---
 ### Q3: Discuss the implementation of Agile project management methodology
 Agile project management is used in order to complete projects by breaking it up into small sections called iterations. After each iteration is completeed, the project is re-evaluated, and then the next step of the project is determined based on the outcome of each iteration. 
 
-This allows developers to assess any issues that come up throughout the project, and make changes accordingly. This also allows developers to release sections as they are completed, rather than having an entire release be delayed due to disorganisation and potential bugs throughout different areas of the project.
+This allows developers to assess any issues that come up throughout the project and make changes accordingly. This also allows developers to release sections as they are completed, rather than having an entire release be delayed due to disorganisation and potential bugs throughout different areas of the project.
 
 Iterations are also useful, as it allows for fixing of issues quickly and efficiently, without having to re-design an entire project near the end due to mis-planning earlier in the project. 
 
@@ -53,7 +53,7 @@ APM can be used in teams, or individually as the concepts remain the same. By us
 
 Source control is a helpful way to keep track of different stages of a project. Another tool that can be utilised either individually or for teams. 
 
-Used individually it is a great way to commit versions of your project to a remote repository. This is particularly useful if your code breaks and is too complicated to fix, you are able to revert back to a previous working version of your code, and try again. Branches help make this more achievable, and is necessary for collaboration.
+Used individually it is a great way to commit versions of your project to a remote repository. This is particularly useful if your code breaks and is too complicated to fix, you are able to revert back to a previous working version of your code and try again. Branches help make this more achievable and is necessary for collaboration.
 
 Branches, when used correctly, allow multiple developers to be working on different sections of the code, which can then be submitted via a pull request, and the project manager is then able to review the branches and merge them with the master branch if the code meets the correct requirements. 
 
@@ -66,7 +66,7 @@ Standard software testing is used to ensure that the code meets the requirements
 
 Testing might seem arbitrary to new developers, though even if code works locally, testing is used to reduce risk by finding and eliminating errors that may impact a client that uses the software that is being developed.
 
-The process involves identifying the areas of code that are high risk for errors, and then developing a set of tests which ensure that the code runs the way it is supposed to. If the code doesnt run according to it's requirements, the test should alert the developer to the error so that it is able to be fixed.
+The process involves identifying the areas of code that are high risk for errors, and then developing a set of tests which ensure that the code runs the way it is supposed to. If the code doesnt run according to its requirements, the test should alert the developer to the error so that it is able to be fixed.
 
 ---
 ### Q6: Discuss and analyse requirements related to information system security and how they relate to the project
@@ -77,7 +77,7 @@ Risk assessment is a vital part of ISS, as it is necessary to determine which in
 
 ### Q7: Discuss common methods of protecting information and data and how you would apply them to the project**
 
-Common methods for protecting information and data in a Rails project are tools such as the Devise and Rolify gems. This ensures that a user of a project has correct authorisation and authentication, so they are only able to access data applicable to them. Devise in particular also uses encryption for secure information, such as passwords, so that even developers are unable to see a users password. 
+Common methods for protecting information and data in a Rails project are tools such as the Devise and Rolify gems. This ensures that a user of a project has correct authorisation and authentication, so they are only able to access data applicable to them. Devise in particular also uses encryption for secure information, such as passwords, so that even developers are unable to see a user’s password. 
 
 It is recommended to use a third-party payment system if dealing with transactions on a rails project. A system such as Stripe or Paypal have their own policies and programs that ensure data is kept safe, and they adhere to legal requirements, meaning it isn't necessary to build a new payment system specific to just one project. 
 
@@ -89,11 +89,11 @@ There are certain legal obligations when handling user information. Companies bu
 
 - Users personal information should be destroyed or re-identified when it is no longer needed. This includes data such as names, email addresses, residential address, date of birth, bank account and/or credit card details, photos etc.
 
-- Adequate procedures are necessary to secure a users information. In Rails, this can be met through using the Devise and Rolify Gems for authentication and authorisation, or using a thir-party payment system when handling payments online.
+- Adequate procedures are necessary to secure a user’s information. In Rails, this can be met through using the Devise and Rolify Gems for authentication and authorisation, or using a thir-party payment system when handling payments online.
 
-- It is important to only collect the necessary information from a user that is applicable to the application being built. For example, if there is no need for payments to be made through the project, it would be unnecessary and irresponsible to request a users payment details. 
+- It is important to only collect the necessary information from a user that is applicable to the application being built. For example, if there is no need for payments to be made through the project, it would be unnecessary and irresponsible to request a user’s payment details. 
 
-- Protecting the users information from direct marketing purposes is necessary when possible. A users information shouldn't be shared without the users knowledge or consent, as this would compromise the integrity of the project. This essentially means that a users data should only be used for its intended purposes, and not distributed illegally.
+- Protecting the user’s information from direct marketing purposes is necessary when possible. A user’s information shouldn't be shared without the user’s knowledge or consent, as this would compromise the integrity of the project. This essentially means that a user’s data should only be used for its intended purposes, and not distributed illegally.
 
 - As webpages collect information such as domains, IP addresses and visisted pages, it is essential that a Privacy Policy is included in the project, and that users are notified when they are signing up with any further information. 
 
@@ -125,7 +125,7 @@ Domain constraints are used as a set of rules within the database that determine
 
 <details>
 <summary><strong>Entity Integrity</strong></summary>
-Every table within a database has its own unique primary key, which *must* have a value. This means that a row in a table must be identified within this table. For example, if a user is signing up to an online store, they must specify an email address. A row such as PO Box wouldnt be used, as some customers may not have a PO Box address. The email address row in this instance could be used as a Primary Key, which then allows the program to track a users session or authorisation access.
+Every table within a database has its own unique primary key, which *must* have a value. This means that a row in a table must be identified within this table. For example, if a user is signing up to an online store, they must specify an email address. A row such as PO Box wouldnt be used, as some customers may not have a PO Box address. The email address row in this instance could be used as a Primary Key, which then allows the program to track a user’s session or authorisation access.
 </details>
 
 <details>
@@ -141,8 +141,7 @@ In order to manipulate data in a relational database model, DBMS (database manag
 
 DBMS has pre-set rules that are used to manipulate data. This includes validation and re-organisation of data. Data queries are used to fund this data, and update (for example, finding and updating employee positions in a company).
 
-Relational databases (as previously stated) are organised by tables that follow certain logic through the relationships each table has with each other. Data from one table can be referenced in another, and so options such as select and join can be performed in order to manipulate this data.
-
+Relational databases (as previously stated) are organised by tables that follow certain logic through the relationships each table has with each other. Data from one table can be referenced in another, and so options such as select, and join can be performed in order to manipulate this data.
 
 ---
 ### Q12: Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O)
@@ -190,7 +189,7 @@ Fibonacci search is an algoritm which searches through a storted array in unequa
 
 The Fibonacci search starts with finding the smallest Fibonnacci number that is greater than or equal to the length of a given array. The Fibonacci number is fibM[m'th Fibonacci number] and the following Fibonacci numbers are fibMm1[(m-1)'th Fibonacci number], and fibMm2[(m-2)'th Fibonacci number].
 
-If the search element is x, and the array still has elements that need to be inspected, x us cinoared wuth the last element of the range covered by fibMm2. If this matches, the index is returned, however, if x is less than the element, the three Fibonacci variables are moved two Fibonacci down, which eliminates roughly 2/3 of the remaining array. If x is greater than the element however, the 3 Fibonacci variables are moved one Fibonacci down, and the offset is reset to index. This eliminates 1/3 of the remaining array. Once this is completed, if there is a remaining element for comparison, fibMm1 is checked if it is 1. If it is, x is compared with the remaining element, and provided they match, the index is returned.
+If the search element is x, and the array still has elements that need to be inspected, x us cinoared wuth the last element of the range covered by fibMm2. If these match, the index is returned, however, if x is less than the element, the three Fibonacci variables are moved two Fibonacci down, which eliminates roughly 2/3 of the remaining array. If x is greater than the element however, the 3 Fibonacci variables are moved one Fibonacci down, and the offset is reset to index. This eliminates 1/3 of the remaining array. Once this is completed, if there is a remaining element for comparison, fibMm1 is checked if it is 1. If it is, x is compared with the remaining element, and provided they match, the index is returned.
 
 </summary>
 </details>
@@ -206,8 +205,8 @@ Airbnb uses a number of different software in order for the app to funtion. Thes
 <summary><strong>Programming Languages</strong></summary>
 <ul>
 <li>Ruby</li>
-Open source language designed to focus on productivity. It is an interpreted language, and is therefore a general purpose language, and necessary when working with Ruby on Rails
-<li>Javascript</li>
+Open source language designed to focus on productivity. It is an interpreted language, and is therefore a general-purpose language, and necessary when working with Ruby on Rails
+<li>JavaScript</li>
 A compiled scripting language that allows the implementation of complex features on dynamic web applications. It allows an application to have more functionality than just a static webpage.
 </ul>
 </details>
@@ -218,7 +217,7 @@ A compiled scripting language that allows the implementation of complex features
 <li>Ruby on Rails</li>
 A server-side web application framework that relies on Ruby. It follows the MVC architecture to handle data.
 <li>React</li>
-Used for the design of interactive User Interfaces to make a more user friendly experience.
+Used for the design of interactive User Interfaces to make a more user-friendly experience.
 </ul>
 </details>
 
@@ -226,7 +225,7 @@ Used for the design of interactive User Interfaces to make a more user friendly 
 <summary><strong>Web Server</strong></summary>
 <ul>
 <li>Nginx</li>
-HTTP and proxy server to speed up content delivery, and help with security and scalability. This is what airbnb is hosted on
+HTTP and proxy server to speed up content delivery and help with security and scalability. This is what airbnb is hosted on
 </ul>
 </details>
 
@@ -266,7 +265,6 @@ A query execution tool to make retrieve results from queries simple.
 </ul>
 </details>
 
-
 **b. Describe the hardware used to host the app.**
 
 Airbnb is hosted with Nginx, which is a HTTP and reverse procy server. Nginx allows for serving static sites, as well as providing scalability and speeding up the delivery of dynamic websites. 
@@ -283,7 +281,7 @@ All data is stored and queried using MySQL, and is manipulated using DBMS.
 
 **d. Describe the way data is structured within the app.**
 
-The data within Airbnb is structured into multiple schemas, and are tracked using Apollo Engline. This allows developers to publish multiple schemas using tags, and offers flexibility so multiple developers can collaborate on a single schema. Once a schema is finalised, the updates are merged with the main schema. 
+The data within Airbnb is structured into multiple schemas and are tracked using Apollo Engline. This allows developers to publish multiple schemas using tags and offers flexibility so multiple developers can collaborate on a single schema. Once a schema is finalised, the updates are merged with the main schema. 
 
 Data is structured using a relational database model, which categorises different entities into tables, that are then connected through the relationships they have with each other. For example, A Host can have zero or many properties, and each of those properties can have zero or many property listings attached to it. A booking can then be connected to property once a guest books a stay in that property. Guests can book zero or many times, therefore the relationship is defined using zero to many.
 
@@ -295,7 +293,7 @@ The entities that are required to be tracked within Airbnb includes Users, which
 
 **f. Identify the relationships and associations between the entities you have identified in part (e)**
 
-One user can have either zero or one host profiles, and can also have 0 or 1 guest profile. As a User, information related to the account is requested, and as either a host or a guest, different data is required. For example, if the User is a guest, they have the number of children attached to their guest profile.
+One user can have either zero or one host profiles and can also have 0 or 1 guest profile. As a User, information related to the account is requested, and as either a host or a guest, different data is required. For example, if the User is a guest, they have the number of children attached to their guest profile.
 
 A host can have zero or many properties, which can in turn have zero or many listings of said properties. Each property can have zero or many bookings, through which guests can book zero or many available accommodation properties.
 
@@ -348,5 +346,6 @@ https://www.forbes.com/sites/quora/2018/02/20/what-technology-stack-does-airbnb-
 https://en.wikipedia.org/wiki/Sorting_algorithm#Selection_sort
 
 https://www.geeksforgeeks.org/fibonacci-search/
+
 
 
