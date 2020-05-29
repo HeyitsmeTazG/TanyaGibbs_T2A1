@@ -162,9 +162,9 @@ Airbnb uses a number of different software in order for the app to funtion. Thes
 <summary><strong>Programming Languages</strong></summary>
 <ul>
 <li>Ruby</li>
+Open source language designed to focus on productivity. It is an interpreted language, and is therefore a general purpose language, and necessary when working with Ruby on Rails
 <li>Javascript</li>
-<li>React</li>
-<li>
+A compiled scripting language that allows the implementation of complex features on dynamic web applications. It allows an application to have more functionality than just a static webpage.
 </ul>
 </details>
 
@@ -172,9 +172,9 @@ Airbnb uses a number of different software in order for the app to funtion. Thes
 <summary><strong>Frameworks</strong></summary>
 <ul>
 <li>Ruby on Rails</li>
-Speeds up development
+A server-side web application framework that relies on Ruby. It follows the MVC architecture to handle data.
 <li>React</li>
-Used to build sleek interfaces
+Used for the design of interactive User Interfaces to make a more user friendly experience.
 </ul>
 </details>
 
@@ -182,7 +182,7 @@ Used to build sleek interfaces
 <summary><strong>Web Server</strong></summary>
 <ul>
 <li>Nginx</li>
-HTTP and proxy server to speed up content delivery, and help with security and scalability
+HTTP and proxy server to speed up content delivery, and help with security and scalability.
 </ul>
 </details>
 
@@ -190,7 +190,7 @@ HTTP and proxy server to speed up content delivery, and help with security and s
 <summary><strong>Cloud Storage</strong></summary>
 <ul>
 <li>Amazon s3</li>
-Stores data (pictures)
+A storage service used to store remote data, such as pictures. S3 allows for scalable storage, which minimises the data being stored in the rails server.
 </ul>
 </details>
 
@@ -198,7 +198,7 @@ Stores data (pictures)
 <summary><strong>Cloud Hosting</strong></summary>
 <ul>
 <li>Amazon EC2</li>
-distributes incoming traffic so the server doesnt go down during traffic spikes
+Distributes incoming traffic so the server doesnt go down during traffic spikes.
 </ul>
 </details>
 
@@ -206,6 +206,7 @@ distributes incoming traffic so the server doesnt go down during traffic spikes
 <summary><strong>Cloud Database</strong></summary>
 <ul>
 <li>Amazon RDS</li>
+A service that makes relational databases easier to set up, operate and scale.
 </ul>
 </details>
 
@@ -213,8 +214,11 @@ distributes incoming traffic so the server doesnt go down during traffic spikes
 <summary><strong>Other Tools</strong></summary>
 <ul>
 <li>Presto</li>
+An open source query engine for SQL.
 <li>Druid</li>
+A column-oriented data store that is used to handle high instakes of data and provide low-latency queries on top of the data.
 <li>Airpal</li>
+A query execution tool to make retrieve results from queries simple.
 </ul>
 </details>
 
