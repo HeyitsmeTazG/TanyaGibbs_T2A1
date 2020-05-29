@@ -165,7 +165,7 @@ Merge sort takes already sorted lists and merges them into a new sorted list. Th
 
 This is a sorting algorithm that caters well to large lists. The worst-case running time is O(*n* log *n*).
 
-This can also be used for lists and not just arrays, because it doesnt rely on random access. It alsoo has additional O(*n*) space complexity.
+This can also be used for lists and not just arrays, because it doesnt rely on random access. It also has additional O(*n*) space complexity.
 </summary>
 </details>
 
@@ -175,6 +175,10 @@ This can also be used for lists and not just arrays, because it doesnt rely on r
 <details>
 <summary>
 <strong>Binary Search</strong>
+
+This is a half-interval search that finds the value of an index within a sorted array. The target index is compared the the middle element of the array, and determmines whether or not they are equal. If they are *not* equal, the half in which the target index cannot be is eliminated, and the remaining half is iterated over in the same way. This is repeated until the target index is found.
+
+Binary search runs in logarithmic time in the worst case, making O(log *n*) comparisons. It is a relatively fast searching algorithm, however an array *must* be sorted in order for Binary search to be effective. It is best utilised for simple searching requests, such as finding the next largest element in an array relative to the target index value.
 </summary>
 </details>
 
@@ -343,6 +347,6 @@ https://www.forbes.com/sites/quora/2018/02/20/what-technology-stack-does-airbnb-
 
 https://en.wikipedia.org/wiki/Sorting_algorithm#Selection_sort
 
-
+https://www.geeksforgeeks.org/fibonacci-search/
 
 
