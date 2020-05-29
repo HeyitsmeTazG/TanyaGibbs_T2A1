@@ -120,30 +120,31 @@ This is where One entity has only One relationship to another. For example, if a
 
 <details>
 <summary><strong>Domain Integrity</strong></summary>
-All columns that are in a relational database must be in a defined domain. 
+All columns that are in a relational database must be in a defined domain. These constraints are in place to restrict the domain of an attribute.
+
+Domain constraints are used as a set of rules within the database that determine how future data is used. For example, booleans can be used to determine authorisation. If a user has a certain authority, they can access or view data that would otherwise not be applicable to a user with different authorisation access.
 </details>
 
 <details>
 <summary><strong>Entity Integrity</strong></summary>
-Primary keys. Each table must have its own unique primary key, and cannot be null. This means that a row own a table must be identified within this table, such as for a shop user, they must specify an email address. A row such as PO Box wouldnt be used, as some customers may not have a PO Box address.
+Every table within a database has its own unique primary key, which *must* have a value. This means that a row in a table must be identified within this table. For example, if a user is signing up to an online store, they must specify an email address. A row such as PO Box wouldnt be used, as some customers may not have a PO Box address. The email address row in this instance could be used as a Primary Key, which then allows the program to track a users session or authorisation access.
 </details>
 
 <details>
 <summary><strong>Referential Integrity</strong></summary>
 Foreign keys can hold values in two states, the first being that it would refer to the primary key of another table, or it would be null. The reference to the primary key is to establish the relationship within the database model, and if it is null, it means there either is no relationship, or that it is unknown.
-</details>
 
+As relational databases are a collection of tables that are connected through their relationships with each other, data from one table can be referenced in another using an ID (such as a user ID). This is how data can be passed from one table to another, while keeping the database concise and without repetition.
+</details>
 
 ---
 ## Q11: Describe the manipulative aspects of the relational database model. Your description should include information about the ways in which data is manipulated (added, removed, changed, and retrieved) in a relational database.
-- DBMS (database management system) software designed to define, manipulate, retrieve and manage data in a database (CRUD)
-- used to manipulate the data itself such as format, field names, record structure and file structure. 
-- defines rules to validate and manipulate the data.
-- reorganising data
-- queries to find certain data and update, such as employee positions
-- in a relational database, data is organised into different tables that follow a certain logic through the relationships each table has with each other. Data from one table can reference data from a different table (such as user_ids etc).
-- this is referred to as referential integrity
-- operations such as select and join can be performed on tables to manipulate the data.
+In order to manipulate data in a relational database model, DBMS (database management system) is needed. With this, you can define, manupulate, retrieve and manage data, for example, changing file structure and field names.
+
+DBMS has pre-set rules that are used to manipulate data. This includes validation and re-organisation of data. Data queries are used to fund this data, and update (for example, finding and updating employee positions in a company).
+
+Relational databases (as previously stated) are organised by tables that follow certain logic through the relationships each table has with each other. Data from one table can be referenced in another, and so options such as select and join can be performed in order to manipulate this data.
+
 
 ---
 ## Q12: Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O)
