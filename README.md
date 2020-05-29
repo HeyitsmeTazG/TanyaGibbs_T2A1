@@ -182,7 +182,7 @@ Used for the design of interactive User Interfaces to make a more user friendly 
 <summary><strong>Web Server</strong></summary>
 <ul>
 <li>Nginx</li>
-HTTP and proxy server to speed up content delivery, and help with security and scalability.
+HTTP and proxy server to speed up content delivery, and help with security and scalability. This is what airbnb is hosted on
 </ul>
 </details>
 
@@ -224,7 +224,9 @@ A query execution tool to make retrieve results from queries simple.
 
 
 **b. Describe the hardware used to host the app.**
-1. Web servers, data servers, application servers
+Airbnb is hosted with Nginx, which is a HTTP and reverse procy server. Nginx allows for serving static sites, as well as providing scalability and speeding up the delivery of dynamic websites. 
+
+Nginx surpasses other hosting servers such as Apache, and continually strieves to be the fastest global web server. It has high performance, and can handle reverse proxying, cahing, load balancing and media streaming. This makes it ideal for high-traffic sites such as Airbnb.
 
 **c. Describe the interaction of technologies within the app.**
 
