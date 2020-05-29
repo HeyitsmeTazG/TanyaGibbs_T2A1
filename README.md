@@ -154,6 +154,7 @@ Relational databases (as previously stated) are organised by tables that follow 
 
 ---
 ## Q14: Conduct research into a marketplace website (app) and answer the following parts: 
+
 **a. List and describe the software used by the app.**
 
 Airbnb uses a number of different software in order for the app to funtion. These can be broken down into the following categories:
@@ -224,11 +225,13 @@ A query execution tool to make retrieve results from queries simple.
 
 
 **b. Describe the hardware used to host the app.**
+
 Airbnb is hosted with Nginx, which is a HTTP and reverse procy server. Nginx allows for serving static sites, as well as providing scalability and speeding up the delivery of dynamic websites. 
 
 Nginx surpasses other hosting servers such as Apache, and continually strieves to be the fastest global web server. It has high performance, and can handle reverse proxying, cahing, load balancing and media streaming. This makes it ideal for high-traffic sites such as Airbnb.
 
 **c. Describe the interaction of technologies within the app.**
+
 Airbnb originally started with just using Ruby on Rails as the main framework, however, as the site began to get more traction, the scope of the project expanded. The developers at Airbnb began to incorporate tools such as GraphQL for backend-driven UI, which allows the developers to easily manage data. 
 
 The site is predominantly built using Ruby on Rails, while also incorporating JavaScript to provide more user functionality. The site is hosted with Nginx, and also uses Amazon S3 as remote storage, which is paired with Nginx to provides fast loading for images. 
@@ -236,6 +239,7 @@ The site is predominantly built using Ruby on Rails, while also incorporating Ja
 All data is stored and queried using MySQL, and is manipulated using DBMS.
 
 **d. Describe the way data is structured within the app.**
+
 The data within Airbnb is structured into multiple schemas, and are tracked using Apollo Engline. This allows developers to publish multiple schemas using tags, and offers flexibility so multiple developers can collaborate on a single schema. Once a schema is finalised, the updates are merged with the main schema. 
 
 Data is structured using a relational database model, which categorises different entities into tables, that are then connected through the relationships they have with each other. For example, A Host can have zero or many properties, and each of those properties can have zero or many property listings attached to it. A booking can then be connected to property once a guest books a stay in that property. Guests can book zero or many times, therefore the relationship is defined using zero to many.
@@ -243,13 +247,18 @@ Data is structured using a relational database model, which categorises differen
 Each one of these entities has a table specific to them, and has applicable data stored in them. This is displayed in the ERD (part g).
 
 **e. Identify entities which must be tracked by the app.**
-The entities that are required to be tracked within Airbnb includes Users, which are seperated into either hosts or guests, Accommodation Properties, Property Listings, Bookings, Reviews and Active Sstorage Attachments. 
+
+The entities that are required to be tracked within Airbnb includes Users, which are seperated into either hosts or guests, Accommodation Properties, Property Listings, Bookings, Reviews and Active Storage Attachments. 
 
 **f. Identify the relationships and associations between the entities you have identified in part (e)**
 
 One user can have either zero or one host profiles, and can also have 0 or 1 guest profile. As a User, information related to the account is requested, and as either a host or a guest, different data is required. For example, if the User is a guest, they have the number of children attached to their guest profile.
 
 A host can have zero or many properties, which can in turn have zero or many listings of said properties. Each property can have zero or many bookings, through which guests can book zero or many available accommodation properties.
+
+A guest can also post zero or many reviews of the properties they've stayed at, meaning a property can also have zero or many reviews.
+
+Both properties and reviews are able to have zero or many pictures, through which the property listings inherit the images row of the corresponding data table.
 
 **g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)**
 
