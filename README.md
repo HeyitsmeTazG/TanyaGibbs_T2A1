@@ -1,4 +1,4 @@
-## Q1: Describe the architecture of a typical Rails application
+### Q1: Describe the architecture of a typical Rails application
 
 Ruby on Rails uses MVC architecture. It is a fundamental part of the framework, and so it's important to understand the structure of a rails app in order to carry out the functions correctly. The MVC stand for Model View Controller, which are the key components for developing with rails. 
 
@@ -13,7 +13,7 @@ If we need to interact with the database, the Controller will interact with the 
 # INSERT IMAGE HERE
 
 ---
-## Q2: Identify a database management system (DBMS) commonly used in web applications (including Rails) and discuss the pros and cons of this database
+### Q2: Identify a database management system (DBMS) commonly used in web applications (including Rails) and discuss the pros and cons of this database
 
 A popular DBMS used in Web Applications (particularly Rails) is Postgres. It is a free database that uses SQL. There are many pros to using Postgres, with limited cons.
 
@@ -39,7 +39,7 @@ A popular DBMS used in Web Applications (particularly Rails) is Postgres. It is 
 -	Postgres has slower performance than other DBMS
 
 ---
-## Q3: Discuss the implementation of Agile project management methodology
+### Q3: Discuss the implementation of Agile project management methodology
 Agile project management is used in order to complete projects by breaking it up into small sections called iterations. After each iteration is completeed, the project is re-evaluated, and then the next step of the project is determined based on the outcome of each iteration. 
 
 This allows developers to assess any issues that come up throughout the project, and make changes accordingly. This also allows developers to release sections as they are completed, rather than having an entire release be delayed due to disorganisation and potential bugs throughout different areas of the project.
@@ -51,7 +51,7 @@ Agile project management allows for continuous adaptation, and is also extremely
 APM can be used in teams, or individually as the concepts remain the same. By using APM, work is completed in a more reliable and efficient manner, and there's less risk of code not working toward the end of the development process.
 
 ---
-## Q4: Provide an overview and description of a standard source control workflow
+### Q4: Provide an overview and description of a standard source control workflow
 
 Source control is a helpful way to keep track of different stages of a project. Another tool that can be utilised either individually or for teams. 
 
@@ -62,7 +62,7 @@ Branches, when used correctly, allow multiple developers to be working on differ
 Using branches is also essential, as there could be conflicts with a feature branch and the master branch due to multiple developers working on the same iteration of code, in which case, the conflicts will need to be reviewed and resolved before merging. This ensures the code is streamlined, and the master branch is error-free.
 
 ---
-## Q5: Provide an overview and description of a standard software testing process (e.g. manual testing)
+### Q5: Provide an overview and description of a standard software testing process (e.g. manual testing)
 
 Standard software testing is used to ensure that the code meets the requirements for the project. It is used effectively when used to identify errors or missing parts of the code. 
 
@@ -71,7 +71,7 @@ Testing might seem arbitrary to new developers, though even if code works locall
 The process involves identifying the areas of code that are high risk for errors, and then developing a set of tests which ensure that the code runs the way it is supposed to. If the code doesnt run according to it's requirements, the test should alert the developer to the error so that it is able to be fixed.
 
 ---
-## Q6: Discuss and analyse requirements related to information system security and how they relate to the project
+### Q6: Discuss and analyse requirements related to information system security and how they relate to the project
 
 Information System Security is primarily used to prevent unauthorized access to a system. It keeps important information confidential; this includes data, computer information and communication (such as phone calls and emails). 
 
@@ -86,7 +86,7 @@ It is recommended to use a third-party payment system if dealing with transactio
 Encryption is important for protective sensitive information such as bank or credit card details, as customers are trusting that their money is safe from theft or fraud. This is why using one of the third-party payment systems is incredibly useful, as encryption is already built into their software.
 
 ---
-## Q8: Research what your legal obligations are in relation to handling user data and how they can be met for the project
+### Q8: Research what your legal obligations are in relation to handling user data and how they can be met for the project
 There are certain legal obligations when handling user information. Companies building technologies that require user data need to ensure they adhere to the following:
 
 - Users personal information should be destroyed or re-identified when it is no longer needed. This includes data such as names, email addresses, residential address, date of birth, bank account and/or credit card details, photos etc.
@@ -100,7 +100,7 @@ There are certain legal obligations when handling user information. Companies bu
 - As webpages collect information such as domains, IP addresses and visisted pages, it is essential that a Privacy Policy is included in the project, and that users are notified when they are signing up with any further information. 
 
 ---
-## Q9: Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure.
+### Q9: Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure.
 
 The relational database model houses a collection of data tables, each with a unique ID. Each table has multiple rows that store values, which can be related to other tables. These tables can be linked to each other through relationships, and the collection of these related tables form the schema. 
 
@@ -116,7 +116,7 @@ This is when Many entities can have multiple other entities. For example, an onl
 This is where One entity has only One relationship to another. For example, if a website allows a user to create a profile, One user can have One profile, and not multiple.
 
 ---
-## Q10: Describe the integrity aspects of the relational database model. Your description should include information about the types of data integrity and how they can be enforced in a relational database.
+### Q10: Describe the integrity aspects of the relational database model. Your description should include information about the types of data integrity and how they can be enforced in a relational database.
 
 <details>
 <summary><strong>Domain Integrity</strong></summary>
@@ -138,7 +138,7 @@ As relational databases are a collection of tables that are connected through th
 </details>
 
 ---
-## Q11: Describe the manipulative aspects of the relational database model. Your description should include information about the ways in which data is manipulated (added, removed, changed, and retrieved) in a relational database.
+### Q11: Describe the manipulative aspects of the relational database model. Your description should include information about the ways in which data is manipulated (added, removed, changed, and retrieved) in a relational database.
 In order to manipulate data in a relational database model, DBMS (database management system) is needed. With this, you can define, manupulate, retrieve and manage data, for example, changing file structure and field names.
 
 DBMS has pre-set rules that are used to manipulate data. This includes validation and re-organisation of data. Data queries are used to fund this data, and update (for example, finding and updating employee positions in a company).
@@ -147,13 +147,13 @@ Relational databases (as previously stated) are organised by tables that follow 
 
 
 ---
-## Q12: Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O)
+### Q12: Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O)
 
 ---
-## Q13: Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O)
+### Q13: Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O)
 
 ---
-## Q14: Conduct research into a marketplace website (app) and answer the following parts: 
+### Q14: Conduct research into a marketplace website (app) and answer the following parts: 
 
 **a. List and describe the software used by the app.**
 
