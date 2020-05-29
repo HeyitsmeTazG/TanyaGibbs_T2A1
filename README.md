@@ -227,8 +227,11 @@ A query execution tool to make retrieve results from queries simple.
 1. Web servers, data servers, application servers
 
 **c. Describe the interaction of technologies within the app.**
+
 **d. Describe the way data is structured within the app.**
+
 **e. Identify entities which must be tracked by the app.**
+
 **f. Identify the relationships and associations between the entities you have identified in part (e)**
 
 **g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)**
